@@ -7,4 +7,5 @@ Run with:
 
 Exit with:
 > quit
+
 The quit command was hidden because players kept quitting after receiving their targets, thus resetting the game.
