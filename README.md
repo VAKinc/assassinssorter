@@ -4,3 +4,7 @@ Creates a randomizes circle of players and targets from a given array, then acts
 
 Run with:
 > ./bin/Debug/netcoreapp3.0/assassins
+
+Exit with:
+> quit
+The quit command was hidden because players kept quitting after receiving their targets, thus resetting the game.
