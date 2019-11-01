@@ -1,4 +1,4 @@
-Creates a randomizes circle of players and targets from a given array, then acts as an interface for players to receive their targets.
+Creates a randomizes circle of players and targets from a given array, then acts as an interface for players to receive their targets. Newly Dockerized!
 
 Build with:
 > docker build -t assassins .
