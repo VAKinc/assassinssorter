@@ -66,7 +66,7 @@ AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS AAAAAAA     
 
         static void FindVictim(string[] array, string target)
         {
-            if (target == "quit")
+            if (target.ToLower() == "quit")
             {
                 complete = true;
                 return;
@@ -75,7 +75,7 @@ AAAAAAA                   AAAAAAASSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS AAAAAAA     
             {
                 for(int x = 0; x < array.Length; x++)
                 {
-                    if(target == array[x])
+                    if(target.ToLower() == array[x].ToLower())
                     {
                         string victim;
                         if(x == array.Length - 1)
